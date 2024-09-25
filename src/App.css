@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.keypad {
+  background-color: white;
+  width: 320px;
+  padding: 20px;
+  margin: 30px auto;
+  height: 420px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.keypad button {
+  float: left;
+  padding: 10px 30px;
+  width: 106px;
+  font-size: 2rem;
+  cursor: pointer;
+  background: #ffff;
+  border: navajowhite;
+}
+button.call {
+  display: inline-block;
+  background-color: #66bb6a;
+  padding: 4px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+  font-size: 20px;
+}
+button.erase {
+  display: inline-block;
+  background-color: #f56c6c;
+  padding: 4px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+  font-size: 20px;
+}
+body {
+  background-color: #42a5f5;
+  color: #fff;
+}
+button.notebook {
+  width: 100%;
+  font-size: 18px;
+}
